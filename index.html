@@ -12,7 +12,7 @@
   document.getElementById("submitBtn").addEventListener("click", function () {
     const videoId = document.getElementById("videoIdInput").value.trim();
     if (videoId) {
-      window.top.location.href = `https://media.duquette.xyz/${videoId}`;
+      submitBtn.onclick = "loaction.href=https://media.duquette.xyz/${videoId}"
     } else {
       alert("Please enter a valid video ID.");
     }
